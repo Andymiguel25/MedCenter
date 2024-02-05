@@ -1,5 +1,7 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
 }
 /* start of nav */
 .nav_container{
@@ -48,7 +50,7 @@ body{
 }
 /* end of hero_box  */
 
-/* start after hero box */
+/* start of location box */
 .location_container{
     display: flex;
     justify-content: center;
@@ -74,4 +76,121 @@ body{
     color: #ffffff;
     border: none;
 }
-/* End of hero box*/
+/* End of location box*/
+
+/* start of content area */
+.content_area{
+    background-color:rgba(142, 29, 6, 0.7);
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+    flex-wrap:wrap ;
+    min-height: 500px;
+    height: 100%;
+    margin-top: 30px;
+    color:#a11703;
+}
+.content_box{
+    background-color: #ffffff;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #a11703;
+    border-radius: 20%;
+    text-align: center;
+    padding: 15px 15px;
+    box-sizing: border-box;
+
+}
+ /* end of content area  */
+
+ /* text styling */
+ .text{
+   text-align: center;
+   width: 50%;
+   height: 200px;
+   margin: auto;
+ }
+ /* end */
+
+ /* start of img section */
+
+ .img_container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+    
+ }
+ .img_div{
+   background-color: whitesmoke;
+   width: 300px;
+   height: 350px;
+   border: 5px solid whitesmoke;
+   border-radius: 5%;
+   box-shadow: 10px 10px 5px 0px rgba(240,240,240,0.75);
+ }
+img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+.img_button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(241,193,135);
+    border: 5px solid rgb(241,193,135);
+    border-radius: 5%;
+    color: #ffffff;
+}
+.button_div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.button_div:hover{
+    background-color: whitesmoke;
+    border-radius: 2%;
+   box-shadow: 10px 10px 5px 0px rgba(240,240,240,0.1);
+}
+.img_div:hover{
+    background-color: whitesmoke;
+    border-radius: 2%;
+   box-shadow: 10px 10px 5px 0px rgba(240,240,240,0.1);
+}
+
+/* end of img section */
+
+/* text area 2 button styling */
+
+.button-OP{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(241,193,135);
+    border: 5px solid rgb(241,193,135);
+    border-radius: 5%;
+    color: #ffffff;
+}
+/* end  of text area 2 button*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:480px) {
+    .content_box{
+        margin: 10px;
+    
+    }
+}
