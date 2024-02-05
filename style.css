@@ -1,0 +1,77 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* start of nav */
+.nav_container{
+    /* background-color: darksalmon; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+   
+}
+.nav_li{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+ a{
+    text-decoration: none;
+    list-style: none;
+    color: #a11703;
+}
+.nav_li_grey{
+    color: gray;
+}
+/* end of nav */
+/* start of header */
+#header{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: normal;
+    color: #a11703;
+}
+/* end  of header*/
+.hero_box{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    color: rgb(116,116,116);
+    gap: 7%;
+}
+#p1, #p2{
+    height: 200px;
+    width: 400px;
+}
+/* end of hero_box  */
+
+/* start after hero box */
+.location_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.location_head{
+    background-color: #a11703;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.location{
+    background-color: #a11703;
+    height: 30px;
+    width: 180px;
+    font-size: larger;
+    font-family: 'Georgia, Times New Roman', Times, serif;
+    color: #ffffff;
+    border: none;
+}
+/* End of hero box*/
